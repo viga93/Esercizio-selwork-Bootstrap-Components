@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il Tuo Cinema</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="background-nero">
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Il Tuo Cinema</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#film">Film</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lavora">Lavora con Noi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#faq">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <
+    <header class="hero">
+        <div>
+            <h1>Benvenuto al Tuo Cinema</h1>
+            <p>Scopri i migliori film, ovunque tu sia.</p>
+        </div>
+    </header>
+
+    
+    <section id="film" class="container mt-5 pt-5">
+        <h2 class="text-center mb-4">Film Consigliati</h2>
+        <div class="row">
+            
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://resizing.flixster.com/lWUZIbUVeVWNwqoeDuw82DIfu0c=/620x336/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24001862_i_h10_aa.jpg" class="card-img-top" alt="Film 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Film Drammatico</h5>
+                        <p class="card-text">Una descrizione emozionante e coinvolgente di questo film.</p>
+                        <a href="https://www.rottentomatoes.com" target="_blank" class="btn btn-primary">Scopri di più</a>
+                    </div>
+                </div>
+            </div>
+           
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://resizing.flixster.com/8rNfBAV8WEQNrpxln1V1uPs7FPk=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p31137_p_v8_ab.jpg" class="card-img-top" alt="Film 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Film Comico</h5>
+                        <p class="card-text">Un'avventura che ti farà ridere dall'inizio alla fine.</p>
+                        <a href="https://www.rottentomatoes.com" target="_blank" class="btn btn-primary">Scopri di più</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="https://resizing.flixster.com/6fOcAq-0NPsfSWfnqeAVIUwh-DE=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8838315_b_v8_aa.jpg" class="card-img-top" alt="Film 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Film Horror</h5>
+                        <p class="card-text">Un film da brivido che ti terrà incollato alla sedia.</p>
+                        <a href="https://www.rottentomatoes.com" target="_blank" class="btn btn-primary">Scopri di più</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container mb-5">
+        <h2 class="text-center mb-4">Carosello di Film</h2>
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="https://resizing.flixster.com/fiZh9H-ugjeIElQyG02vZERa51c=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p195405_b_v8_bc.jpg" class="d-block w-100" alt="Film 1">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Film Drammatico</h5>
+                        <p>Una storia che ti tocca nel profondo.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://resizing.flixster.com/kQTuvlgA28wF77fCrE_mHR78Poc=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8370817_p_v13_aa.jpg" class="d-block w-100" alt="Film 2">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Film Comico</h5>
+                        <p>Un film che ti farà ridere tutta la sera.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://resizing.flixster.com/HS-xFLyLfqgToEJlSqHivX-kCCA=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8807210_b_v8_ao.jpg" class="d-block w-100" alt="Film 3">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Film Horror</h5>
+                        <p>Un thriller che ti farà battere il cuore.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Precedente</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Successivo</span>
+            </button>
+        </div>
+    </section>
+
+   
+    <section id="faq" class="container mb-5">
+        <h2 class="text-center mb-4">Domande Frequenti (FAQ)</h2>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        Come posso iscrivermi?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Puoi iscriverti tramite il nostro modulo di registrazione online. È veloce e semplice.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Quali sono i metodi di pagamento?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Accettiamo pagamenti tramite carta di credito, PayPal e bonifico bancario.
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Come posso annullare una prenotazione?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        Le prenotazioni possono essere annullate facilmente tramite il nostro sito o contattando il supporto clienti.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="footer text-center">
+        <p>P.IVA: 123456789</p>
+        <p>Proprietario: Nome Proprietario</p>
+        <p>
+            <a href="#" class="text-white me-3">Facebook</a>
+            <a href="#" class="text-white me-3">Instagram</a>
+            <a href="#" class="text-white">Twitter</a>
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
